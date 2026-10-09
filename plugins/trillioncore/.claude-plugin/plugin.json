@@ -1,8 +1,12 @@
 {
   "name": "trillioncore",
-  "version": "0.3.11-source.a4ca370fd49f",
+  "version": "0.3.11-source.c5aca8798912",
   "license": "MIT",
   "privacyPolicyUrl": "https://www.trillioncore.com/privacy",
+  "homepage": "https://www.trillioncore.com",
+  "supportUrl": "https://www.trillioncore.com/support",
+  "termsOfServiceUrl": "https://www.trillioncore.com/terms",
+  "repository": "https://github.com/trillioncore/trillioncore-plugin",
   "description": "Your connected work context",
   "author": {
     "name": "Trillioncore"
