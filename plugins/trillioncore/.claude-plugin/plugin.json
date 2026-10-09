@@ -1,9 +1,10 @@
 {
   "name": "trillioncore",
-  "version": "0.3.13-source.6026f2fba3ee",
+  "version": "0.3.13-source.7acb6bebf767",
   "license": "MIT",
   "privacyPolicyUrl": "https://www.trillioncore.com/privacy",
   "homepage": "https://www.trillioncore.com",
+  "documentationUrl": "https://www.trillioncore.com/docs",
   "supportUrl": "https://www.trillioncore.com/support",
   "termsOfServiceUrl": "https://www.trillioncore.com/terms",
   "repository": "https://github.com/trillioncore/trillioncore-plugin",
