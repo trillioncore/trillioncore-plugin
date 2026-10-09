@@ -45,15 +45,14 @@ Read `get_context` first, once per session for the approved organization you are
 working in. It returns three system files: `organization.md` (the business),
 `people/<handle>/profile.md` (the person), and `skills/trillioncore/skill.md`
 (the data cheat sheet: where things are and how to query them). A file that says
-it is empty has not been filled in. In your first reply of a session, after
-answering: only when any of these files is empty or any account is missing from
-the cheat sheet (and you can write it), add one line that names every empty file
-and every missing account, and offers to draft them. When nothing is empty and
-nothing is missing, end your reply with the answer; do not mention these files,
-the cheat sheet or setup, and do not say that nothing is missing.
+it is empty has not been filled in. The last line of the guidance that
+comes with context says what to do at the end of your first reply of a session.
+Follow it.
 
-- Before any data question, use the cheat sheet. Open other `skills/` files only
-  when it points to them. Each skill is a folder with a `skill.md`, for example
+- Before any data question, use the cheat sheet. Open another `skills/` file
+  when the cheat sheet points to it or its description in the list with context
+  fits the question. Give each `skills/` file a one-line description when you
+  write it. Each skill is a folder with a `skill.md`, for example
   `skills/engineering/sop-1/skill.md`.
 - If the profile is empty, draft it from what you already know about the person
   (role, team, responsibilities, tools, working preferences). Show it and save
