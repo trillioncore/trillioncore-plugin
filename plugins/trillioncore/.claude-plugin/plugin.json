@@ -1,7 +1,8 @@
 {
   "name": "trillioncore",
-  "version": "0.3.11-source.2a16d5d1a910",
+  "version": "0.3.11-source.a4ca370fd49f",
   "license": "MIT",
+  "privacyPolicyUrl": "https://www.trillioncore.com/privacy",
   "description": "Your connected work context",
   "author": {
     "name": "Trillioncore"
