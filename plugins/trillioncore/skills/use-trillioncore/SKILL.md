@@ -20,6 +20,7 @@ passwords or verification codes in chat.
 | `sql` | Runs one read-only SQL query on a connected account that offers SQL. | Before writing it, read the cheat sheet from get_context, then inspect the table with index (account path plus resourceKey) for exact columns. |
 | `write_document` | Creates or replaces a Trillioncore document by path, or appends to a Markdown log. | Use it only after the person has seen the full draft and said yes to it; read the current file first. |
 | `move_document` | Moves or renames a Trillioncore document. | Use it when the person asks to move or rename a file; system files cannot move. |
+| `delete_document` | Deletes one Trillioncore document: it is hidden and its path is freed, not destroyed. | Use it only when the person asks to delete that file: name the path back and wait for a clear yes. |
 | `act` | Performs one action on a connected account, such as sending an email. | Use it only when the person asks for that action; index on the account lists its actions and their input fields. |
 | `create_organization` | Starts creating a new Trillioncore organization and returns a link the person opens to confirm it. | Use it only when the person asks for a new organization. |
 
@@ -94,6 +95,9 @@ uses SQL.
   person to turn on **Write documents** for this connection.
 - Your own folder `people/<handle>/`: before you create or move a file there, follow
   the "## How I keep my notes" section of your own profile; if it is missing, ask once.
+- `delete_document` takes a `path`. Admins only; name the path back and wait for a
+  clear yes. A member is told to ask an administrator and can move, rename or edit
+  the file instead. System files cannot be deleted.
 - `move_document` takes `from` and `to`. System files cannot move. Document
   writes never change provider records.
 
