@@ -1,0 +1,11 @@
+{
+  "name": "trillioncore",
+  "version": "0.3.11-source.2a16d5d1a910",
+  "license": "MIT",
+  "description": "Your connected work context",
+  "author": {
+    "name": "Trillioncore"
+  },
+  "displayName": "Trillioncore",
+  "icon": "./assets/tc-icon.png"
+}

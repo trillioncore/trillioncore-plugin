@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "trillioncore": {
+      "type": "http",
+      "url": "https://api.trillioncore.com/mcp"
+    }
+  }
+}

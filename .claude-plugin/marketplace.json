@@ -1,0 +1,15 @@
+{
+  "name": "trillioncore",
+  "description": "Your connected work context",
+  "owner": {
+    "name": "Trillioncore"
+  },
+  "plugins": [
+    {
+      "name": "trillioncore",
+      "source": "./plugins/trillioncore",
+      "description": "Your connected work context",
+      "category": "productivity"
+    }
+  ]
+}
