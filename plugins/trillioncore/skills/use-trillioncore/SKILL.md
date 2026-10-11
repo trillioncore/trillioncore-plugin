@@ -104,7 +104,8 @@ uses SQL.
 ## Actions
 
 - `act` runs one action the account's catalog lists. The person must turn on Act
-  for that account on the Connections page. Before sending anything to other
+  for that account when approving the connection or later in Connections; it is
+  off by default and needs Read. Before sending anything to other
   people, confirm the recipients and exact content. Actions cannot be undone; do
   not retry an uncertain action, report it.
 - Access to one organization or account is never permission to act in another.
