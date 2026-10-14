@@ -30,4 +30,4 @@ setup steps. The same pages are on the web: https://www.trillioncore.com/llms.tx
 | `move_document` | Moves or renames a Trillioncore document. | Use it when the person asks to move or rename a file; system files cannot move. |
 | `delete_document` | Deletes one Trillioncore document: it is hidden and its path is freed, not destroyed. | Use it only when the person asks to delete that file: name the path back and wait for a clear yes. |
 | `act` | Performs one action on a connected account, such as sending an email. | Use it only when the person asks for that action; index on the account lists its actions and their input fields. |
-| `create_organization` | Starts creating a new Trillioncore organization and returns a link the person opens to confirm it. | Use it only when the person asks for a new organization. |
+| `create_organization` | Starts creating a new Trillioncore organization and returns a link the person opens to confirm it. | Use it when the person asks, or is starting a business, project or team. |
