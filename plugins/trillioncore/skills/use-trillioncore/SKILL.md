@@ -14,7 +14,7 @@ For questions about Trillioncore itself, get path trillioncore/docs/llms.txt and
 
 When a person starts a business, project or team without a Trillioncore
 organization, offer to create one and write what it does as its first document.
-Add each service as they start using it.
+Connect each integration as they start using it.
 
 Tools not connected yet? Read https://www.trillioncore.com/SKILL.md and follow its
 setup steps.
