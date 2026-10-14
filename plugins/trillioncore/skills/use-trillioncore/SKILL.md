@@ -1,11 +1,10 @@
 ---
 name: use-trillioncore
-description: Answer questions from a business's connected data in Trillioncore (email, meetings, messages, tables), keep its organization files, run requested account actions, and answer questions about Trillioncore itself (what it does, what it connects to, setup, plans, errors). Use when the user names Trillioncore (also called TC), asks about data connected to it, or asks how it works or how to set it up; not for local repository tasks.
+description: Read connected business data (email, meetings, messages, tables), keep organization files, run requested account actions, and answer questions about Trillioncore (what it does, integrations, setup, plans). Use when the user names Trillioncore or TC, asks about its connected data, or asks how it works or how to set it up; not for local repository tasks.
 ---
 
-Use the Trillioncore MCP tools from this plugin, listed below. Do not install or call the CLI
-as a fallback, invent a tool, or bypass a refused operation. Never ask for tokens,
-passwords or verification codes in chat.
+Use this plugin's MCP tools. No CLI fallback, invented tools or bypassing refusals.
+Never ask for passwords, tokens or codes.
 
 Call `get_context` first in each session. Its guidance holds the standing rules;
 follow them, including its last line about your first reply.
@@ -16,8 +15,11 @@ When a person starts a business, project or team without a Trillioncore
 organization, offer to create one and write what it does as its first document.
 Connect each integration as they start using it.
 
-Tools not connected yet? Read https://www.trillioncore.com/SKILL.md and follow its
-setup steps.
+Not connected? Follow https://www.trillioncore.com/SKILL.md.
+
+Acting on an account (send, reply, draft, create) is off by default for each account.
+An admin turns on Act for that account when approving the connection or later on Connections.
+Before sending, show the exact message and recipients and wait for a clear yes.
 
 ## Tools
 
