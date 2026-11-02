@@ -6,8 +6,8 @@ description: Read connected business data (email, meetings, messages, tables), k
 Use this plugin's MCP tools. No CLI fallback, invented tools or bypassing refusals.
 Never ask for passwords, tokens or codes.
 
-Call `get_context` first in each session. Its guidance holds the standing rules;
-follow them, including its last line about your first reply.
+Call `get_context` first each session. Follow its document shape, standing rules
+and last line about your first reply.
 
 For questions about Trillioncore itself, get path trillioncore/docs/llms.txt and read only the page that fits.
 
