@@ -18,7 +18,7 @@ Connect each integration as they start using it.
 Not connected? Follow https://www.trillioncore.com/SKILL.md.
 
 Acting on an account (send, reply, draft, create) is off by default for each account;
-an admin turns on Act on Connections.
+an admin turns on Act on Access Tokens.
 Before sending, show the exact message and recipients and wait for a clear yes.
 
 ## Tools
